@@ -1,0 +1,23 @@
+.hero {
+    height: 635px;
+    background-image: url(../images/home_mobile.png);
+    background-size: cover;
+    background-position: center center;
+    @include media-breakpoint-up(sm) {
+        background-image: url(../images/home.png);
+        height: 810px;
+    }
+}
+
+.hero-service {
+    height: 215px;
+    background-image: url(../images/banner_service-sm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    @include media-breakpoint-up(sm) {
+        background-size: cover;
+        background-image: url(../images/banner.png);
+        height: 288px;
+    }
+}

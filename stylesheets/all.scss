@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/functions";
+//helpers
+@import "./helpers/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+//components
+@import "./components/font-style";
+@import "./components/custom-btn.scss";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/text-stroke";
+@import "./components/hover";
+@import "./components/nav-hover";

@@ -1,0 +1,16 @@
+.nav {
+    .nav-link {
+        &.active, &:hover {
+            color: $yellow !important;
+            @include media-breakpoint-up(lg) {
+                transition: all .2s;
+                transform: translateX(3px);
+            
+                &::before {
+                  content: '- ';
+                  transform: translateX(0px);
+                }
+              }
+        }
+    }
+}

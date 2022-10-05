@@ -14,7 +14,7 @@
     background-image: url(../images/banner_service-sm.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center center;
     @include media-breakpoint-up(sm) {
         background-size: cover;
         background-image: url(../images/banner.png);

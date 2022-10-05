@@ -1,0 +1,7 @@
+.img-hover {
+    opacity: 0;
+    &:hover {
+        transition: 0.5s;
+        opacity: 1;
+    }
+}

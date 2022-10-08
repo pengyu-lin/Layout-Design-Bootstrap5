@@ -1,7 +1,14 @@
 .img-hover {
     opacity: 0;
-    &:hover {
-        transition: 0.5s;
-        opacity: 1;
-    }
 }
+
+.hover-img {
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    &:hover {
+      box-shadow: 0 1rem 1.5rem rgba($black, .35);
+      .img-hover {
+        transition: .5s;
+        opacity: 1;
+      }    
+    }
+  }
